@@ -1,7 +1,7 @@
 # General
 This is my tmux (terminal-multiplexer) configuration that I use along with vim or neovim.
 We use tpm (tmux-plugin-manager) to install the plugin. In this configuration we can also use vim keybinding to move between tmux window when opening neovim.
-We use tmux resurrect and tmux-continuum to restore the session and save the session every period of time, so when we start our machint the session is ready.
+We use tmux resurrect and tmux-continuum to restore the session and save the session every period of time, so every we start our machine the session is restored and ready to use we just need attach command.
 
 # How to Use
 1. Install tmux plugin manager [tpm](https://github.com/tmux-plugins/tpm)
