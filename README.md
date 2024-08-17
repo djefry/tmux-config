@@ -8,8 +8,8 @@ We use tmux resurrect and tmux-continuum to restore the session and save the ses
     By running this command `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 2. Copy this config file to your home directory
 3. Open tmux by executing `tmux`
-4. Install the plugin by pressing `<prefix> + I (capital i, as in Install) to fetch the plugin.
-5. In this configuration the previx is Ctrl + A, so after pressing Ctrl + A then press I
+4. Install the plugin by pressing `<prefix>` + I (capital i, as in Install) to fetch the plugin.
+5. In this configuration the prefix is Ctrl + A, so after pressing Ctrl + A then press I
 6. Your tmux is ready to use.
 7. To create new session `tmux new -s your_session_name`
 8. To attacth to previous session use command `tmux attach -t your_session_name`
